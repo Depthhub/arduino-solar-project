@@ -38,8 +38,8 @@ echo  ==========================================
 echo.
 pause >nul
 
-echo  Uploading to COM11...
-"%CLI%" upload -p COM11 --fqbn arduino:avr:uno "%SKETCH%"
+echo  Uploading to COM4...
+"%CLI%" upload -p COM4 --fqbn arduino:avr:uno "%SKETCH%"
 
 if errorlevel 1 goto fail
 

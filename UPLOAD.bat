@@ -34,8 +34,8 @@ echo ============================================
 echo.
 timeout /t 5
 
-echo Uploading to COM11...
-arduino-cli upload -p COM11 --fqbn arduino:avr:uno "c:\Users\user\arduino solar project\SolarTemperatureController"
+echo Uploading to COM4...
+arduino-cli upload -p COM4 --fqbn arduino:avr:uno "c:\Users\user\arduino solar project\SolarTemperatureController"
 
 if errorlevel 1 (
     echo.
